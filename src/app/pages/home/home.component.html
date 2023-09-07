@@ -1,0 +1,126 @@
+<div *ngFor="let cat of songsData | async">
+<h1 style="color:green;">{{cat.name}}</h1>
+<div class="horizontal-scroll">
+    
+    <div *ngFor="let song of cat.list" class="w3-card-4" (click)="sendData(song)">
+
+        <img [src]="song.img || '.\assets\images\logo.jpg'" alt="Alps" style="width: 100%">
+
+        <div class="w3-container w3-center">
+            <p style="color: green;">{{song.label || 'Unknown'}}</p>
+        </div>
+            
+    </div>
+</div>    
+</div><!--ngfor1-->
+
+<!--    <div class="w3-card-4">
+        <img src=".\assets\images\img1.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\img1.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\img1.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+</div> -->
+    
+
+<!--<h1>English Songs</h1>
+<div class="horizontal-scroll">
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>    
+    </div>
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\img1.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+</div>    
+
+
+<h1>Bollywood Songs</h1>
+<div class="horizontal-scroll">
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>    
+    </div>
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+    
+    <div class="w3-card-4">
+        <img src=".\assets\images\logo.jpg" alt="Alps" style="width: 100%">
+        <div class="w3-container w3-center">
+            <p>Sample Song Title</p>
+        </div>
+    </div>
+
+</div>    -->

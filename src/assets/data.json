@@ -1,0 +1,103 @@
+[
+    {
+        "name" : "Top Songs",
+        "list":
+        [
+            {
+                "img":"./assets/images/img1.jpg",
+                "label":"Temple Of Thought",
+                "author":"Poets Of The Fall",
+                "url":"./assets/songs/song1.mp3"
+            },
+            {
+                "img":"./assets/images/img2.jpg",
+                "label":"Tender Surrender",
+                "author":"Steve Vai",
+                "url":"./assets/songs/song2.mp3"
+            },
+            {
+                "img":"./assets/images/img3.jpg",
+                "label":"Every Breath You Take",
+                "author":"The Police",
+                "url":"./assets/songs/song3.mp3"
+            },            
+            {
+                "img":"./assets/images/img6.jpg",
+                "label":"Immigrant Song",
+                "author":"Led Zeppelin",
+                "url":"./assets/songs/song6.mp3"
+            },
+            {
+                "img":"./assets/images/img5.jpg",
+                "label":"Say What!",
+                "author":"SRV",
+                "url":"./assets/songs/song5.mp3"
+            },
+            {
+                "img":"./assets/images/img4.jpg",
+                "label":"Nothing else Matters",
+                "author":"Metallica",
+                "url":"./assets/songs/song4.mp3"
+            }
+        ]
+    },
+
+
+    {
+        "name" : "Classic English Songs",
+        "list":
+        [
+            {
+                "img":"./assets/images/img6.jpg",
+                "label":"Immigrant Song",
+                "author":"Led Zeppelin",
+                "url":"./assets/songs/song6.mp3"
+            },
+            {
+                "img":"./assets/images/img5.jpg",
+                "label":"Say What!",
+                "author":"SRV",
+                "url":"./assets/songs/song5.mp3"
+            },
+            {
+                "img":"./assets/images/img4.jpg",
+                "label":"Nothing else Matters",
+                "author":"Metallica",
+                "url":"./assets/songs/song4.mp3"
+            }
+        ]
+    },
+
+
+
+    {
+        "name" : "Hindi Songs",
+        "list":
+        [
+            {
+                "img":"./assets/images/imgH.jpg",
+                "label":"Aage",
+                "author":"Ananthaal",
+                "url":"./assets/songs/sh1.mp3"
+            },
+            {
+                "img":"./assets/images/imgH.jpg",
+                "label":"Haal-E-Dil",
+                "author":"Ananthaal",
+                "url":"./assets/songs/sh2.mp3"
+            },
+            {
+                "img":"./assets/images/imgH.jpg",
+                "label":"Inayat",
+                "author":"Ananthaal",
+                "url":"./assets/songs/sh3.mp3"
+            },
+            {
+                "img":"./assets/images/imgH.jpg",
+                "label":"Kaare Badra",
+                "author":"Ananthaal",
+                "url":"./assets/songs/sh4.mp3"
+            }
+        ]
+    }
+]

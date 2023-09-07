@@ -1,0 +1,16 @@
+<div class="w3-card bar w3-grey">
+
+  <!--  <p>que bar!</p>--><br>
+
+    <div *ngFor="let music of musicsDatas" class="w3-card-my" (click)=(sendData(music))>
+        <img [src]="music.img ||'.\assets\images\img1.jpg'" [title]="music.label" alt="Alps" style="width: 100%">
+    </div>
+
+
+
+    <!--<div class="w3-card">
+        <img src=".\assets\images\img1.jpg" alt="Alps" style="width: 100%">
+    </div>-->
+
+
+</div>
